@@ -1,0 +1,26 @@
+[
+    {
+        "id": "23",
+        "name": "Burger đặc biệt",
+        "id_type": "13",
+        "price": "125"
+    },
+    {
+        "id": "24",
+        "name": "Burger cá hồi",
+        "id_type": "13",
+        "price": "120"
+    },
+    {
+        "id": "25",
+        "name": "Burger nướng Hàn Quốc",
+        "id_type": "13",
+        "price": "190"
+    },
+    {
+        "id": "26",
+        "name": "Burger Silton",
+        "id_type": "13",
+        "price": "130"
+    }
+]

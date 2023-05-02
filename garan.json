@@ -1,0 +1,26 @@
+[
+    {
+        "id": "19",
+        "name": "Gà rán KFC",
+        "id_type": "12",
+        "price": "110"
+    },
+    {
+        "id": "20",
+        "name": "Gà rán phô mai",
+        "id_type": "12",
+        "price": "110"
+    },
+    {
+        "id": "21",
+        "name": "Gà rán sốt ca",
+        "id_type": "12",
+        "price": "234"
+    },
+    {
+        "id": "22",
+        "name": "Gà rán mật ong",
+        "id_type": "12",
+        "price": "150"
+    }
+]

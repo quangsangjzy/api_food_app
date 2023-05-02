@@ -1,0 +1,26 @@
+[
+    {
+        "id": "11",
+        "name": "Pizza Hải Sản",
+        "id_type": "10",
+        "price": "123"
+    },
+    {
+        "id": "12",
+        "name": "Pizza Bò Nướng",
+        "id_type": "10",
+        "price": "155"
+    },
+    {
+        "id": "13",
+        "name": "Pizza phô mai",
+        "id_type": "10",
+        "price": "162"
+    },
+    {
+        "id": "14",
+        "name": "Pizza nhân nhồi",
+        "id_type": "10",
+        "price": "250"
+    }
+]

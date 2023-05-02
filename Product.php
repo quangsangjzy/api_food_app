@@ -1,8 +1,7 @@
 <?php
 $conn = new mysqli('localhost', 'root', '', 'db_app');
 
-
-$productType = array();
+$product = array();
 if($conn){
     $sql = "SELECT * FROM product";
     $result = mysqli_query($conn, $sql);
@@ -10,13 +9,14 @@ if($conn){
         header("Content-Type: JSON");
         $i=0;
         while($row = mysqli_fetch_assoc($result)){
-            $productType[$i]['id'] = $row['id'];
-            $productType[$i]['name'] = $row['name'];
-            $productType[$i]['id_type'] = $row['id_type'];
-            $productType[$i]['price'] = $row['price'];
+            $product[$i]['id'] = $row['id'];
+            $product[$i]['name'] = $row['name'];
+            $product[$i]['id_type'] = $row['id_type'];
+            $product[$i]['price'] = $row['price'];
             $i++;
         }
-        echo json_encode($productType, JSON_PRETTY_PRINT);
+        $encode_data = json_encode($product, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+        file_put_contents('./API/product.json', $encode_data);
     }else{
         echo "That bai";
     }

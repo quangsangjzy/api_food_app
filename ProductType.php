@@ -14,7 +14,9 @@ if($conn){
             $productType[$i]['image'] = $row['image'];
             $i++;
         }
-        echo json_encode($productType, JSON_PRETTY_PRINT);
+        $encode_data = json_encode($productType, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+        echo $encode_data;
+        file_put_contents('./API/productType.json', $encode_data);
     }else{
         echo "That bai";
     }

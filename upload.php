@@ -6,55 +6,54 @@ $statusMsg = '';
 // $targetFilePath = $targetDir . $fileName;
 // $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
-if(isset($_POST["submit"])){
-  if(!empty($_FILES["file"]["name"])){
+if (isset($_POST["submit"])) {
+  if (!empty($_FILES["file"]["name"])) {
     $targetDir = "./img/product/";
     $fileName = basename($_FILES["file"]["name"]);
     $targetFilePart = $targetDir . $fileName;
-    $fileType = pathinfo($targetFilePart,PATHINFO_EXTENSION);
+    $fileType = pathinfo($targetFilePart, PATHINFO_EXTENSION);
 
     $allowTypes = array('jpg', 'png', 'jpeg');
 
-    if(in_array($fileType, $allowTypes)){
+    if (in_array($fileType, $allowTypes)) {
       // up file
-      if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePart)){
+      if (move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePart)) {
         $insert = $conn->query("INSERT INTO image VALUES('', '$fileName', '')");
-        if($insert){
-          $statusMsg = "Ten file" .$fileName." da tai len thanh cong";
-        }else{
+        if ($insert) {
+          $statusMsg = "Ten file" . $fileName . " da tai len thanh cong";
+        } else {
           $statusMsg = "Tai file loi";
         }
-      }else{
+      } else {
         $statusMsg = " chua tai len thanh cong";
       }
-    }else{
-      $statusMsg="sai dinh dang";
     }
-  }else{
-    $statusMsg = "vui long chon file";
   }
 }
 
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Upload Image File</title>
-  </head>
-  <body>
-    <?php if(!empty($statusMsg)){?>
-      <p><?php echo $statusMsg ?></p>
-    <?php } ?>
 
-    <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
-      <label for="image">Image : </label>
-      <input type="file" name="file" accept=".jpg, .jpeg, .png" value=""> <br> <br>
-      <button type = "submit" name = "submit">Submit</button>
-    </form>
-    <br>
-    <a href="data.php">Data</a>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Upload Image File</title>
+</head>
+
+<body>
+  <?php if (!empty($statusMsg)) { ?>
+    <p><?php echo $statusMsg ?></p>
+  <?php } ?>
+
+  <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+    <label for="image">Image : </label>
+    <input type="file" name="file" accept=".jpg, .jpeg, .png" value=""> <br> <br>
+    <button type="submit" name="submit">Submit</button>
+  </form>
+  <br>
+  <a href="data.php">Data</a>
+</body>
+
 </html>
 
 

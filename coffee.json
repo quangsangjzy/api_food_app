@@ -4,27 +4,27 @@
         "name": "Cafe sữa đá",
         "id_type": "11",
         "price": "139",
-        "image": "https://i.pinimg.com/564x/57/ae/96/57ae966fa9372739abca059153f7946e.jpg"
+        "image": "https:\/\/i.pinimg.com\/564x\/57\/ae\/96\/57ae966fa9372739abca059153f7946e.jpg"
     },
     {
         "id": "16",
         "name": "Cafe bạc xỉu",
         "id_type": "11",
         "price": "210",
-        "image": "https://i.pinimg.com/564x/22/dc/a6/22dca65cefd74a43a1d97e554f8b49e9.jpg"
+        "image": "https:\/\/i.pinimg.com\/564x\/22\/dc\/a6\/22dca65cefd74a43a1d97e554f8b49e9.jpg"
     },
     {
         "id": "17",
         "name": "Cafe đen",
         "id_type": "11",
         "price": "234",
-        "image": "https://i.pinimg.com/564x/b6/43/c7/b643c7f45a5b0657c28351be6966726c.jpg"
+        "image": "https:\/\/i.pinimg.com\/564x\/b6\/43\/c7\/b643c7f45a5b0657c28351be6966726c.jpg"
     },
     {
         "id": "18",
         "name": "Cafe capuchino",
         "id_type": "11",
         "price": "223",
-        "image": "https://i.pinimg.com/564x/63/72/08/6372083a11654d8de4da1152f9582ed6.jpg"
+        "image": "https:\/\/i.pinimg.com\/564x\/63\/72\/08\/6372083a11654d8de4da1152f9582ed6.jpg"
     }
 ]

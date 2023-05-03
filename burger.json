@@ -3,24 +3,28 @@
         "id": "23",
         "name": "Burger đặc biệt",
         "id_type": "13",
-        "price": "125"
+        "price": "125",
+        "image": "https:\/\/i.pinimg.com\/564x\/4d\/5d\/98\/4d5d981b39836c44755b4f9414ab8de1.jpg"
     },
     {
         "id": "24",
         "name": "Burger cá hồi",
         "id_type": "13",
-        "price": "120"
+        "price": "120",
+        "image": "https:\/\/i.pinimg.com\/564x\/e2\/c5\/ce\/e2c5ce287a6534e488d7f48b55a20a3f.jpg"
     },
     {
         "id": "25",
         "name": "Burger nướng Hàn Quốc",
         "id_type": "13",
-        "price": "190"
+        "price": "190",
+        "image": "https:\/\/i.pinimg.com\/564x\/e3\/f1\/42\/e3f14236a906b83a493a19b81afd6c5e.jpg"
     },
     {
         "id": "26",
         "name": "Burger Silton",
         "id_type": "13",
-        "price": "130"
+        "price": "130",
+        "image": "https:\/\/i.pinimg.com\/564x\/a0\/70\/e7\/a070e73f6154102bf2fce5e027c4e9e4.jpg"
     }
 ]

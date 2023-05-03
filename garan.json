@@ -3,24 +3,28 @@
         "id": "19",
         "name": "Gà rán KFC",
         "id_type": "12",
-        "price": "110"
+        "price": "110",
+        "image": "https:\/\/i.pinimg.com\/564x\/c9\/07\/9d\/c9079d25d2278acd93cf9f7d53d38294.jpg"
     },
     {
         "id": "20",
         "name": "Gà rán phô mai",
         "id_type": "12",
-        "price": "110"
+        "price": "110",
+        "image": "https:\/\/i.pinimg.com\/564x\/4f\/89\/02\/4f890228f82560cddefca16d5aa946d1.jpg"
     },
     {
         "id": "21",
         "name": "Gà rán sốt ca",
         "id_type": "12",
-        "price": "234"
+        "price": "234",
+        "image": "https:\/\/i.pinimg.com\/564x\/b9\/ce\/11\/b9ce1160bf0e2396bd4587a23e946af8.jpg"
     },
     {
         "id": "22",
         "name": "Gà rán mật ong",
         "id_type": "12",
-        "price": "150"
+        "price": "150",
+        "image": "https:\/\/i.pinimg.com\/564x\/11\/38\/8f\/11388ff0ebb846e462b2486c335e8f75.jpg"
     }
 ]

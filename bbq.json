@@ -3,24 +3,28 @@
         "id": "15",
         "name": "BBQ đặc biệt",
         "id_type": "11",
-        "price": "139"
+        "price": "139",
+        "image": "https:\/\/i.pinimg.com\/564x\/26\/a7\/14\/26a71460a0d464303964bc8619be274e.jpg"
     },
     {
         "id": "16",
         "name": "BBQ má heo nướng",
         "id_type": "11",
-        "price": "210"
+        "price": "210",
+        "image": "https:\/\/i.pinimg.com\/564x\/47\/dc\/88\/47dc88b05ebf9f65ef7fd378937ae15e.jpg"
     },
     {
         "id": "17",
         "name": "BBQ ba rọi heo nướng",
         "id_type": "11",
-        "price": "234"
+        "price": "234",
+        "image": "https:\/\/i.pinimg.com\/564x\/a4\/04\/43\/a404434585194e60e37c07e3d686d92f.jpg"
     },
     {
         "id": "18",
         "name": "BBQ Bò nướng xiên que",
         "id_type": "11",
-        "price": "223"
+        "price": "223",
+        "image": "https:\/\/i.pinimg.com\/564x\/66\/e7\/ca\/66e7ca4a1cded0d1683db8bd4615c506.jpg"
     }
 ]

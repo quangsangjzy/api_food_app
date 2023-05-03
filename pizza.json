@@ -3,24 +3,28 @@
         "id": "11",
         "name": "Pizza Hải Sản",
         "id_type": "10",
-        "price": "123"
+        "price": "123",
+        "image": "https:\/\/i.pinimg.com\/564x\/b6\/94\/0e\/b6940e530fa87fdf8f4e9cdf5ccafc36.jpg"
     },
     {
         "id": "12",
         "name": "Pizza Bò Nướng",
         "id_type": "10",
-        "price": "155"
+        "price": "155",
+        "image": "https:\/\/i.pinimg.com\/564x\/b1\/4e\/96\/b14e967be4d2d4d121ec19d6de13ea7c.jpg"
     },
     {
         "id": "13",
         "name": "Pizza phô mai",
         "id_type": "10",
-        "price": "162"
+        "price": "162",
+        "image": "https:\/\/i.pinimg.com\/564x\/7b\/19\/54\/7b1954f4824aa583eb6695ba64b274e9.jpg"
     },
     {
         "id": "14",
         "name": "Pizza nhân nhồi",
         "id_type": "10",
-        "price": "250"
+        "price": "250",
+        "image": "https:\/\/i.pinimg.com\/564x\/b9\/fb\/37\/b9fb37527222a4c1cded7383669ff8a3.jpg"
     }
 ]

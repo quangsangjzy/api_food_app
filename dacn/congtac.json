@@ -1,0 +1,26 @@
+[
+    {
+        "MaPhong": "PTK",
+        "MaNV": "TK053",
+        "ChucVu": "Truong phong",
+        "TgCongTac": "15"
+    },
+    {
+        "MaPhong": "PTT",
+        "MaNV": "TT047",
+        "ChucVu": "Pho phong",
+        "TgCongTac": "15"
+    },
+    {
+        "MaPhong": "PSX",
+        "MaNV": "SX112",
+        "ChucVu": "Nhan vien",
+        "TgCongTac": "4"
+    },
+    {
+        "MaPhong": "PNS",
+        "MaNV": "NS016",
+        "ChucVu": "To truong",
+        "TgCongTac": "7"
+    }
+]

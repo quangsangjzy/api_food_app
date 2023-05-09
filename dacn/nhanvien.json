@@ -1,0 +1,30 @@
+[
+    {
+        "MaNV": "NS016",
+        "HoTen": "Tran Phuong Binh",
+        "DiaChi": "Uong Bi - Quang Ning",
+        "GioiTinh": "Nu",
+        "SDT": "0399562781"
+    },
+    {
+        "MaNV": "SX112",
+        "HoTen": "Nguyen Van Anh",
+        "DiaChi": "Ha Dong - Ha Noi",
+        "GioiTinh": "Nam",
+        "SDT": "0123456789"
+    },
+    {
+        "MaNV": "TK053",
+        "HoTen": "Cooc Thanh Nam",
+        "DiaChi": "Kien Thuy - Hai Phong",
+        "GioiTinh": "Nam",
+        "SDT": "0933408326"
+    },
+    {
+        "MaNV": "TT047",
+        "HoTen": "Luong Thi Bich Ngoc",
+        "DiaChi": "Kien Thuy - Hai Phong",
+        "GioiTinh": "Nu",
+        "SDT": "0455521568"
+    }
+]

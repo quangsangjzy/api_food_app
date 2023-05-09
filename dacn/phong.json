@@ -1,0 +1,22 @@
+[
+    {
+        "MaPhong": "PNS",
+        "TenPhong": "Nhan su",
+        "TruongPhong": "Pham Thi Doan"
+    },
+    {
+        "MaPhong": "PSX",
+        "TenPhong": "San xuat",
+        "TruongPhong": "Ly Hoai Nam"
+    },
+    {
+        "MaPhong": "PTK",
+        "TenPhong": "Thiet ke",
+        "TruongPhong": "Tran Van Cuong"
+    },
+    {
+        "MaPhong": "PTT",
+        "TenPhong": "Truyen thong",
+        "TruongPhong": "Luong Thi Bich Ngoc"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "MaNV": "NS016",
+        "ChucVu": "To truong",
+        "NgayCong": "24",
+        "TroCap": "500000",
+        "LuongCung": "12000000"
+    },
+    {
+        "MaNV": "TT047",
+        "ChucVu": "Pho phong",
+        "NgayCong": "26",
+        "TroCap": "2000000",
+        "LuongCung": "35000000"
+    },
+    {
+        "MaNV": "TK053",
+        "ChucVu": "Truong phong",
+        "NgayCong": "26",
+        "TroCap": "3500000",
+        "LuongCung": "50000000"
+    },
+    {
+        "MaNV": "SX112",
+        "ChucVu": "Nhan vien",
+        "NgayCong": "24",
+        "TroCap": "350000",
+        "LuongCung": "9500000"
+    }
+]
